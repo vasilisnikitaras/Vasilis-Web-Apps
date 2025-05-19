@@ -56,3 +56,4 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     formMessage.innerText = "Message sent successfully!";
     formMessage.style.color = "green";
 });
+
