@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vasilis Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h1 id="animatedText"></h1>
+        <p>Hi, I'm Vasilis, a passionate web developer!</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="filter-buttons">
+            <button onclick="filterProjects('all')">All</button>
+            <button onclick="filterProjects('JavaScript')">JavaScript</button>
+            <button onclick="filterProjects('React')">React</button>
+        </div>
+        <div class="project-list">
+            <div class="project" data-category="JavaScript">
+                <a href="https://vasilisnikitaras.github.io/currency-exchange-calculator/" target="_blank">Currency Exchange Calculator</a>
+            </div>
+            <div class="project" data-category="JavaScript">
+                <a href="https://vasilisnikitaras.github.io/weather-forecast-app/" target="_blank">Weather Forecast App</a>
+            </div>
+            <div class="project" data-category="React">
+                <a href="https://vasilisnikitaras.github.io/taskeasy-lite/" target="_blank">Taskeasy-Lite</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2024 Created by Vasileios Nikitaras. All rights reserved.</p>
+        <button id="scrollTopBtn">↑ Back to Top</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
