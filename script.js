@@ -1,7 +1,7 @@
 // Dark Mode Toggle
 document.getElementById('darkModeToggle').addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
-    
+
     // Show or hide the Back to Top button based on dark mode activation
     let scrollBtn = document.getElementById('scrollTopBtn');
     scrollBtn.style.display = document.body.classList.contains('dark-mode') ? 'block' : 'none';
@@ -56,4 +56,3 @@ document.getElementById('contactForm').addEventListener('submit', (e) => {
     formMessage.innerText = "Message sent successfully!";
     formMessage.style.color = "green";
 });
-
