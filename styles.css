@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif; 
+    font-family: Arial, sans-serif;
     transition: background-color 0.3s, color 0.3s;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ nav ul li a:hover {
     color: #ffcc00;
 }
 
-/* Project Section */
+/* Projects Section */
 .project-list {
     display: flex;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@ nav ul li a:hover {
     cursor: pointer;
     border-radius: 5px;
     transition: 0.3s ease-in-out;
-    display: none; /* Initially hidden */
+    display: none;
 }
 
 #scrollTopBtn:hover {
@@ -115,3 +115,4 @@ footer button {
     margin: 0 10px;
     text-decoration: none;
 }
+
