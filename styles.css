@@ -116,3 +116,17 @@ footer button {
     text-decoration: none;
 }
 
+/* Default placeholder styling */
+::placeholder {
+    color: #007BFF; /* Blue for light mode */
+    font-weight: bold;
+    opacity: 1; 
+}
+
+/* Dark mode-specific styling */
+body.dark-mode input::placeholder, 
+body.dark-mode textarea::placeholder {
+    color: #ffffff; /* White for better contrast */
+    font-weight: bold;
+    opacity: 0.8;
+}
