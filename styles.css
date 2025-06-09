@@ -135,3 +135,18 @@ body.dark-mode input::placeholder,
 body.dark-mode textarea::placeholder {
     color: #cccccc; /* Light gray for better readability */
 }
+
+/* Default placeholder styling */
+::placeholder {
+    color: #007BFF; /* Blue for light mode */
+    font-weight: bold;
+    opacity: 1; 
+}
+
+/* Dark mode-specific styling */
+body.dark-mode input::placeholder, 
+body.dark-mode textarea::placeholder {
+    color: #1E90FF; /* Darker blue for better contrast */
+    font-weight: bold;
+    opacity: 0.9; /* Ensure visibility */
+}
