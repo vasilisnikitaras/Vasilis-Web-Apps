@@ -130,3 +130,8 @@ body.dark-mode textarea::placeholder {
     font-weight: bold;
     opacity: 0.8;
 }
+
+body.dark-mode input::placeholder, 
+body.dark-mode textarea::placeholder {
+    color: #cccccc; /* Light gray for better readability */
+}
